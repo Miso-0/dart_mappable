@@ -1,6 +1,8 @@
 include: package:lints/recommended.yaml
 
 analyzer:
+  errors:
+    doc_directive_unknown: ignore
   language:
     strict-casts: true
 
